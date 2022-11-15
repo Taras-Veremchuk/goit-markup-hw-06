@@ -432,17 +432,13 @@ img {
 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    background-color: transparent;
-}
-
-.close-button-icon {
-    fill: var(--black-color);
-
+    background-color: var(--white-color);
     transition: fill 250ms var(--timing-function);
 }
-
-.close-button-icon:hover {
+.modal-close-button:hover,
+.modal-close-button:focus {
     fill: var(--accent-color);
+    outline: transparent;
 }
 /* ПЕРЕВАГИ */
 .advantage.container {
